@@ -10,7 +10,7 @@ import java.util.function.Predicate;
 import java.util.function.Supplier;
 import java.util.stream.Collectors;
 
-public class HelloWorld {
+public class TestForEveryFunction {
 
     public static void main(String[] args){
         System.out.println("Hello world");
@@ -300,6 +300,11 @@ public class HelloWorld {
         //调用Class的静态方法：forName(String classPath)
         Class clazz3 = Class.forName("com.gaaloeng.Employee");
         System.out.println(clazz3);
+    }
+
+    @Test
+    public void testGit(){
+        System.out.println("Hello GitHub");
     }
 
 }
